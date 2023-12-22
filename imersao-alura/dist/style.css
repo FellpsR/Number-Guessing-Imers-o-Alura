@@ -31,8 +31,60 @@ body {
 .github-logo {
   width: 40px;
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 10px;
+}
+
+.container-form{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.name-color{
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.input{
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 25px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.button{
+  background-color: #dc1c24;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover{
+  background-color: #871b20;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 body > img {
@@ -41,4 +93,9 @@ body > img {
 
 img {
   max-height: 350px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
 }
